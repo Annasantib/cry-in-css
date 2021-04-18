@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0%;
+}
+.main-tittle{
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #C996C7;
+    font-size: 2.8rem;
+}
+
+.div-izq{
+    display: flex;
+    flex-direction: column;
+
+}
+.banner{
+    width: 800px;
+}
+
+.sub-img{
+    width: 250px;
+    height: 320px ;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
