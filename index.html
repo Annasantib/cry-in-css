@@ -1,46 +1,56 @@
-<!DOCTYPE <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Tarea 8</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <script src="js/javascript.js"></script>
-    </head>
-    <body>
-        <h1 class="main-tittle">Mis cosas Favoritas</h1>
-        
-        <div class="div-der">
-           <img src="images/img2.jpg" class="pin-sailor" alt="broche sailor moon">
-           <h4>Bienvenido!</h4>
-            <form class="contact-form">
-                <h1 class="contact-form-title">Recibe Noticias</h1>
-                <input class="contact-form-input" placeholder="Ingresa tu nombre" type="text" name="name">
-                <input class="contact-form-input" placeholder="Ingresa tu correo" type="email" name="mail">
-                <input class="contact-form-input" placeholder="Ingresa tu número" type="number" name="number">
-                <button class="primary-button" type="submit">Enviar</button>
-            </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+  <header class="header">The Legend of Zelda Bearth of the Wild</header>
+  <section class="section">
+      <main class="main">
+          <div class="main-header">
+            <div class="full-width">
+              <img width= "1300px" height="600px" src="images/img1.jpg">
+              <h2>Zelda Breath of the Wild</h2>
+            </div>
+            <div class="col-2">
+              <div class="sm-image">
+                <img  width= "550px" height="600px" src="images/mipha.jpg">
+                <h2> Mipha</h2>
+              </div>
+              <div class="sm-image">
+                <img width= "550px" height="600px" src="images/zelda.jpg">
+                <h2>Princess Zelda</h2>
+              </div>
+            </div>
+          </div>
+          <div class="main-content">
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Veniam eum aut incidunt adipisci officia voluptates voluptatibus, 
+              non fuga. Soluta fugiat nemo sit commodi dolore 
+              officiis dignissimos in illum voluptates enim.</p>
+          </div>
+      </main>
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <img width="100%" src="images/Tim Kaminski on Twitter.jpg">
+          <h2>Church</h2>
+                
         </div>
-        <div class="div-izq">
-            <div class="img-banner">
-                <img src="images/img 1.jpg" class="banner" alt="Sakura">
-                <h2> Hola! Estas con mis cosas favoritas</h2>
-            </div>
-            <div class="articulo"> 
-                <img src="images/img3.jpg" alt="Princess Zelda" class="sub-img">
-                <h2> Princesa Zelda</h2>
-                <img src="images/img4.jpeg" alt="Jaina Proudmoore" class="sub-img">
-                <h2> Jaina Proudmoore</h2>
-            </div>
-            <div>
-                <h2> Princesa Zelda</h2>
-                <h2> Jaina Proudmoore</h2>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab distinctio, exercitationem illum temporibus quaerat, tenetur voluptatem autem repellendus 
-            cupiditate harum amet! Tempora aliquid excepturi iure ipsum explicabo doloribus distinctio cum.</p>
-        </div>
+        <form onsubmit="onFormSubmit(event)" class="sidebar-form">
+          <input required="" class="input" type="text" placeholder="Nombre">
+          <input required="" class="input" type="email" placeholder="Correo">
+          <input required="" class="input" type="number" placeholder="Telefono">
+          <button class="input" type="submit">Enviar</button>
+        </form>
+      </aside>
+       
 
-
+  </section>
     
-    </body>
+</body>
 </html>
